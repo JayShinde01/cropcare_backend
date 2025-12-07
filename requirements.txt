@@ -1,5 +1,7 @@
-tensorflow-cpu==2.15.0
-gunicorn
-flask
-werkzeug
-pillow
+Flask==3.0.2
+Werkzeug==3.0.1
+
+tensorflow==2.20.0
+
+Pillow
+gunicorn==21.2.0
