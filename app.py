@@ -12,7 +12,7 @@ UPLOAD_FOLDER = "static/uploads"
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 app.config["UPLOAD_FOLDER"] = UPLOAD_FOLDER
 
-MODEL_PATH = r"C:\Users\jaysh\Desktop\wheat_disease_app\model\best_wheat_model.keras"
+MODEL_PATH = r"model/best_wheat_model.keras"
 
 
 # --------- FIX MODEL DESERIALIZATION ISSUE ----------
