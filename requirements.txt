@@ -1,7 +1,5 @@
 Flask==3.0.2
 Werkzeug==3.0.1
-
-tensorflow==2.20.0
-
-Pillow
+tensorflow-cpu==2.15.0   # Use CPU-only version to reduce memory
+Pillow==10.0.1           # Pin a stable version
 gunicorn==21.2.0
