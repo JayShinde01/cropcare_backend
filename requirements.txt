@@ -5,3 +5,4 @@ tensorflow==2.20.0
 
 Pillow
 gunicorn==21.2.0
+python-dotenv

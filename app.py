@@ -6,7 +6,9 @@ from tensorflow.keras.applications.efficientnet import preprocess_input
 from werkzeug.utils import secure_filename
 from io import BytesIO
 import os, json
+from dotenv import load_dotenv
 
+load_dotenv()
 app = Flask(__name__)
 
 # ------------------ Configuration ------------------
